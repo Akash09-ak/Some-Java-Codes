@@ -6,7 +6,7 @@ public class Solution
 Stack<Character> stk = new Stack<>();
 Queue<Character> que = new LinkedList<>();
 
-void pushCharacter(Character ch) 
+void pushCharacter(char ch) 
 {
     stk.push(ch);
 }
