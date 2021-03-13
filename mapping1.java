@@ -10,12 +10,12 @@ class map1
 		
 		Scanner sc=new Scanner(System.in);
 		Map<String,Integer> menu= new HashMap<>();  
-		menu.put("Momos",40);
+		menu.put("Momos",40);                      		// this function is used to add key value pair
 		menu.put("SpringRoll",50);
 		menu.put("Kabab",40);
 		menu.put("Chowmin",50);
 		System.out.println(menu);
-        menu.remove("Chowmin");// this function used to delete the key which is put inside it
+                menu.remove("Chowmin");				       // this function used to delete the key which is put inside it
 		System.out.println(menu);
 		System.out.println(menu.values());       // this method will give only values inside menu
 		System.out.println(menu.keySet());      // this method will give us only keys inside menu
