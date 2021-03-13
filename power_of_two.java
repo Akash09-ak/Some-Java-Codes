@@ -5,6 +5,8 @@ class power2
   {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
+    if(n==0)
+      System.out.println(n+" is not Power of two");
     if((n&(n-1))==0)           // using bitwise & operator  
        System.out.println(n+" is Power of two");
     else
